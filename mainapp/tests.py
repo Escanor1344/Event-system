@@ -26,7 +26,7 @@ class EventTests(APITestCase):
                 'info1': 'ok1',
                 'info2': 'ok2'
             },
-            'timestamp': "2018-03-29T13:34:00.000"
+            'timestamp': "2018-03-29T13:34:00.000",
         }
 
         self.event = Event.objects.create(**self.event_attributes)
