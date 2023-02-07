@@ -33,10 +33,8 @@ ___
 2. ``` pip install django ```
 3. ``` pip install djangorestframework ```
 4. ``` pip install requests ```
-5. ``` python manage.py makemigrations ```
-6. ``` python manage.py migrate ```
-7. ``` python manage.py createsuperuser ```
-8. ``` python manage.py drf_create_token 'user' ```.
+5. ``` python manage.py createsuperuser ```
+6. ``` python manage.py drf_create_token 'user' ```.
 Other than getting a token via 'manage.py' it can be done by url. send request to url 'http://127.0.0.1/token'
 to get a token. 
 Example with requests:
@@ -52,7 +50,7 @@ r = requests.post(url, data={
 )
 ```
 
-9. ``` python manage.py runserver ```
+7. ``` python manage.py runserver ```
 
 
 ### Built With
